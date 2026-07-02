@@ -1,0 +1,18 @@
+# Python 缓存、环境、数据库、密钥
+__pycache__/
+*.pyc
+*.pyo
+venv/
+*.log
+*.db
+.env
+*.env.local
+
+# 前端超大依赖包（必忽略，否则推送卡死）
+frontend/node_modules/
+frontend/package-lock.json
+frontend/.vite
+
+# Windows系统垃圾文件
+.DS_Store
+Thumbs.db
